@@ -9,7 +9,7 @@ export const AddEmployee = () => {
   const [name, setName] = useState("");
   const [desgination, setDesgination] = useState("");
   const [location, setLocation] = useState("");
-console.log(name , desgination , location)
+  console.log(name, desgination, location);
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -19,12 +19,12 @@ console.log(name , desgination , location)
       desgination: desgination,
       location: location,
     };
-    console.log(newEmployee)
+    console.log(newEmployee);
     addEmployee(newEmployee);
     history.push("/");
     setDesgination("");
-    setName("")
-    setLocation("")
+    setName("");
+    setLocation("");
   };
   return (
     <Fragment>
