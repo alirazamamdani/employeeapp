@@ -43,6 +43,7 @@ export const AddEmployee = () => {
               onChange={(e) => setName(e.target.value)}
               type="text"
               placeholder="Enter name"
+              required
             />
           </div>
           <div className="w-full mb-5">
@@ -58,6 +59,7 @@ export const AddEmployee = () => {
               onChange={(e) => setLocation(e.target.value)}
               type="text"
               placeholder="Enter location"
+              required
             />
           </div>
           <div className="w-full mb-5">
@@ -73,6 +75,7 @@ export const AddEmployee = () => {
               onChange={(e) => setDesgination(e.target.value)}
               type="text"
               placeholder="Enter designation"
+              required
             />
           </div>
           <div className="flex items-center justify-between">
